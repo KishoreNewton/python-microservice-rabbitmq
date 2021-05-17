@@ -22,3 +22,15 @@ python manage.py migrate
 2. serializers.py
 3. views.py
 4. urls.py
+
+
+
+# Flask
+
+## Migrations
+```bash
+docker-compose exec backend sh
+python manager.py db --help
+python manager.py db init
+python manager.py db migrate
+```
